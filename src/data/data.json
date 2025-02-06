@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "ONSPOT Logistics: Reliable. Fast. Seamless.",
+    "paragraph": "From secure freight transportation to efficient warehousing and last-mile delivery, ONSPOT Logistics ensures your goods arrive on time, every time. With advanced technology, real-time tracking, and a dedicated team, we streamline your supply chain—so you can focus on growth while we handle the rest."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At ONSPOT Logistics, we simplify and accelerate the way businesses move goods. With a commitment to speed, reliability, and efficiency, we provide seamless logistics solutions tailored to your needs. Whether it's freight transportation, warehousing, or last-mile delivery, we ensure your shipments arrive safely and on time. Powered by advanced technology and a dedicated team, we make logistics stress-free so you can focus on growing your business.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Fast & Reliable Deliveries",
+      "Real-Time Tracking",
+      "Secure Warehousing",
+      "24/7 Customer Support"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Affordable & Transparent Pricing",
+      "Global Reach, Local Expertise",
+      "Flexible Freight Options",
+      "Sustainability Focused"
     ]
   },
   "Gallery": [
@@ -67,36 +67,36 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Freight & Cargo Transport",
+      "text": "Reliable and efficient freight transportation for businesses of all sizes. We ensure your goods reach their destination on time."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Warehousing & Storage",
+      "text": "Secure, scalable, and strategically located warehousing solutions to keep your inventory safe and easily accessible when you need it."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-road",
+      "name": "Last-Mile Delivery",
+      "text": "Seamless last-mile delivery services to ensure your products get to customers quickly and efficiently, enhancing their experience and satisfaction."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-archive",
+      "name": "Custom Packaging & Handling",
+      "text": "We provide specialized packaging and handling solutions tailored to your products, ensuring safety and compliance with shipping standards."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-clock-o",
+      "name": "Express & Same-Day Delivery",
+      "text": "Need urgent delivery? Our express and same-day shipping services guarantee that your parcels arrive quickly without delays."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-globe",
+      "name": "International Shipping & Customs",
+      "text": "Effortless global logistics with expert handling of customs clearance, documentation, and cross-border shipping solutions."
     }
-  ],
+],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -152,33 +152,34 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "LUNGA LUNGA SQUARE FIRST FLOOR, Office 0-5",
+    "phone": "+254 723 937547",
     "email": "info@company.com",
+    "post": "P.O BOX 52224- 00100 NAIROBI, Kenya",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-archive",
+      "title": "Real-Time Shipment Tracking",
+      "text": "Allow customers to track their shipments live with accurate updates on location and estimated delivery time."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-truck",
+      "title": "On-Demand Freight Services",
+      "text": "Provide flexible freight transportation for businesses, covering local and long-haul deliveries with reliable scheduling."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-building",
+      "title": "Secure Warehousing & Storage",
+      "text": "Offer safe, scalable storage solutions with easy access and inventory management for businesses of all sizes."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-phone",
+      "title": "24/7 Customer Service & Support",
+      "text": "Ensure seamless communication and support for clients with dedicated assistance for tracking, booking, and issue resolution."
     }
   ]
 }

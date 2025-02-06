@@ -7,8 +7,9 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Efficient, Reliable, and Scalable Logistics Solutions Tailored to
+            Your Business Needs. From Freight Transport to Last-Mile Delivery,
+            We Ensure Seamless Supply Chain Management with Speed and Precision.
           </p>
         </div>
         <div className="row">

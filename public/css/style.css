@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -82,10 +82,14 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
   color: #333;
   text-transform: uppercase;
+}
+.Logo{
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: -16px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -104,7 +108,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +129,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, orangered 0%, orangered 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +139,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: orangered;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: orangered;
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +156,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +170,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: orangered;
+  background-image: linear-gradient(to right, orangered 0%, orangered 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -207,29 +211,36 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/ONSPOT\ IMG-1.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  display: flex;
+  justify-content: center; align-items: center;
+  text-align: center;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%; height: 100vh;
+  display: flex;
+  justify-content: center; align-items: center;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  color: white;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: orangered;
 }
 .intro p {
   color: #fff;
@@ -239,11 +250,11 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
-header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
+.intro .btn:hover{
+  background: orangered;
+  color: white;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -257,7 +268,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +287,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,13 +302,13 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: orangered;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
+  width: 650px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -310,7 +321,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +345,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, orangered 0%, orangered 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -460,8 +471,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+  color: rgba(0, 0, 0, 0.75);
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -470,7 +481,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: #000000;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -485,7 +496,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #000000;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -501,11 +512,11 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: orangered;
 }
 label {
   font-size: 12px;
@@ -518,17 +529,22 @@ label {
   width: 100%;
   padding: 6px 12px;
   font-size: 16px;
-  line-height: 1.42857143;
+  line-height: 1.4;
   color: #444;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
+  /* border: 1px solid #ddd; */
+  border-radius: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  outline: 0;
+  padding: 18px;
+}
+form textarea.form-control {
+  height: 150px;
 }
 #contact .form-control:focus {
   border-color: #999;
@@ -552,7 +568,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: orangered;
   margin-bottom: 10px;
   display: block;
 }
@@ -565,6 +581,16 @@ label {
   margin-top: 50px;
   text-align: center;
 }
+#contact .btn{
+  color: white;
+  background: orangered;
+  border: 0;
+}
+#contact .btn:hover{
+  color: white;
+  background: orangered;
+  border: 0;
+}
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
@@ -574,13 +600,13 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid orangered;
+  color: orangered;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: orangered;
   background: #fff;
 }
 /* Footer Section*/
@@ -591,12 +617,6 @@ label {
 #footer p {
   color: #888;
   font-size: 14px;
-}
-#footer a {
-  color: #608dfd;
-}
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
 }
 
 @media (max-width: 768px) {
